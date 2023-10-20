@@ -1,0 +1,5 @@
+Upload the free recipes to the free recipe S3 bucket from step 2. Do this by typing this command into the console (you will replace <BucketNameRecipesFree> with your bucket name):
+
+Example:
+
+aws s3 cp free_recipe.txt s3://<BucketNameRecipesFree>/ --region us-east-1

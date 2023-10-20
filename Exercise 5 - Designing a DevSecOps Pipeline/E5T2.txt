@@ -1,0 +1,21 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+Regula: tool that evaluates infrastructure as code files for potential AWS, Azure, Google Cloud, and Kubernetes security and compliance violations prior to deployment.
+Chef Inspect: an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements.
+
+### Example vulnerability
+Server Side Encryption (SSE) is disable
+Access logs is disable to resources that support it
+
+##Scan AMI’s or containers for OS vulnerabilities
+Use tool Ansible
+
+### Example vulnerability
+Access SSH root by logging in with a password.
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+AWS Config: service provided by Amazon Web Services (AWS) that allows you to monitor and control the configurations of your AWS resources.
+
+### Example vulnerability
+s3-bucket-server-side-encryption
